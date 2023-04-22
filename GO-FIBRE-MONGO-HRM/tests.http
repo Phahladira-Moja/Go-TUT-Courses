@@ -1,0 +1,29 @@
+get http://localhost:3000/employee
+
+###
+
+delete http://localhost:3000/employee/63426b042199b0f72cb0b5ce
+
+###
+
+put http://localhost:3000/employee/63426b042199b0f72cb0b5ce
+Content-Type: application/json
+
+{
+
+    "name": "Brad Peters",
+    "salary": 7478,
+    "age": 29
+}
+
+###
+
+post http://localhost:3000/employee
+Content-Type: application/json
+
+{
+
+    "name": "Brad Peters",
+    "salary": 2424,
+    "age": 29
+}

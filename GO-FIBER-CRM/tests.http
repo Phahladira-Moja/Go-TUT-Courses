@@ -1,0 +1,24 @@
+get http://localhost:3000/api/v1/lead
+
+###
+
+get http://localhost:3000/api/v1/lead/2
+
+###
+
+delete http://localhost:3000/api/v1/lead/2
+
+###
+post http://localhost:3000/api/v1/lead
+Content-Type: application/json
+
+{
+    "ID": 3,
+    "CreatedAt": "2022-10-08T18:38:33+01:00",
+    "UpdatedAt": "2022-10-08T18:38:33+01:00",
+    "DeletedAt": null,
+    "name": "Jordan Peters",
+    "company": "Amazon",
+    "email": "alex@amazon.com",
+    "phone": 82992389426
+}

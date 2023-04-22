@@ -1,0 +1,23 @@
+GET https://i7i632cvv8.execute-api.af-south-1.amazonaws.com/test-stage
+
+###
+POST https://i7i632cvv8.execute-api.af-south-1.amazonaws.com/test-stage
+Content-Type: application/json
+
+{
+  "email": "test3@gmail.com",
+  "firstName": "John",
+  "lastName": "Doe"
+}
+###
+PUT https://i7i632cvv8.execute-api.af-south-1.amazonaws.com/test-stage
+Content-Type: application/json
+
+{
+  "email": "test2@gmail.com",
+  "firstName": "Johnny",
+  "lastName": "Boi"
+}
+
+###
+DELETE https://i7i632cvv8.execute-api.af-south-1.amazonaws.com/test-stage?email=test3@gmail.com
